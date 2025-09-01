@@ -1,0 +1,21 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Vector store / local data
+vector_store/
+*.sqlite3
+.chroma/
+
+# User-uploaded PDFs (keep the folder, ignore contents except samples)
+data/*
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
